@@ -3,7 +3,7 @@
 #include<conio.h>
 void main()
 {       char name[10];
-	int roll,m1,m2,m3,avg;
+	    int roll,m1,m2,m3,avg;
 		printf("****student mark list****");
 		printf("\n enter the name ");
 	 	scanf("%s",&name);
@@ -16,27 +16,15 @@ void main()
 	    printf("\n enter the mark for subject 3 :");
 	    scanf("%d",&m3);
 	    avg=(m1+m2+m3)/3;
-	    printf("\n average of three subject is %d \n",avg);
-	    
-	 
-	  if(avg < 50)
-	  
-	  
-	  printf("\nfail");
-
-	   else if(avg>70 && avg<100)
-	   
-	   
-	   
+	    printf("\n average of three subject is %d \n",avg); 
+	    if(avg < 50)
+	    printf("\nfail");
+        else if(avg>70 && avg<100)
 	    printf("\n A+ \npass");
+	    else
+	    printf("invalid");
 
-	  else
-	  
-	  
-	  
-	  printf("invalid");
-
-
+}
    
 
 	 
