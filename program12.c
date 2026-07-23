@@ -14,8 +14,5 @@ void main()
  printf("difference=%d\n",diff);
  printf("product=%d\n",mul);
  printf("division=%d",div);
- 
- 
- 
-	 
+  	 
 }
