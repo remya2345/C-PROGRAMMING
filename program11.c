@@ -10,9 +10,5 @@ void main()
    {
    	 if (num % 2 != 0)
    	printf("\n%d",num);
-   }
-	
-	  
-	
-	 
+   } 
 }
