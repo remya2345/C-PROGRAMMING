@@ -1,14 +1,27 @@
 #include<stdio.h>
-#include<string.h>
-int copy(char str1[], char str2[])
+#include<conio.h>
+int length(char str[])
 {
-	 strcpy(str2,str1);
+    int i = 0;
+    while(str[i] != '\0')
+    {
+        i++;
+    }
+
+    return i;
 }
+
 int main()
 {
-	char str1[50],str2[50];
-	printf("enter the string 1 ");
-	gets(str1);
-	copy(str1,str2);
-	printf("copy of the string is =%s ",str1);
+    char str[50];
+    int l;
+
+    printf("Enter a string: ");
+    scanf("%s", str);
+
+    l = length(str);
+
+    printf("Length of string = %d", l);
+
+    return 0;
 }
