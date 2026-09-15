@@ -1,16 +1,19 @@
 #include<stdio.h>
 #include<conio.h>
-void table()
+void mul()
 {
-	
-	int i;
-	for(i=1;i<=10;i++)
+	int i,j,n;
+	printf("enter a number");
+	scanf("%d",&n);
+	for(i=1;i<10;i++)
 	{
-		printf("5 x %d=%d\n",i,5 * i);
+		printf("%d * %d=%d\n",n,i,n*i);
 	}
+	
 }
 int main()
 {
-	table();
+	mul();
 }
+
 
